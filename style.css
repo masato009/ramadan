@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+    background: url(img.jpg) repeat ;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.ramazon-taqvimi {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    border: 2px solid #e2d6c7;
+}
+
+.ramazon-taqvimi h2 {
+    text-align: center;
+    color: #754207;
+    margin-bottom: 20px;
+}
+
+.ramazon-taqvimi table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.ramazon-taqvimi th,
+.ramazon-taqvimi td {
+    padding: 12px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.ramazon-taqvimi th {
+    background-color: #f5e8dc;
+    color: #5d3a2e;
+    font-weight: bold;
+}
+
+.ramazon-taqvimi tr:nth-child(even) {
+    background-color: #fdfaf7;
+}
